@@ -6,4 +6,4 @@ echo `date '+%Y年%m月%d日 %H:%M:%S 自动提交了记录'` >> $selfPath/`date
 #开始git提交
 git add -A
 git commit -m 'dayCommit'
-git push -u origin master:
+git push -u origin master
